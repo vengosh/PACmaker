@@ -1,0 +1,11 @@
+---
+application:
+  name: "pacmaker"
+  project: "PACmaker"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-pacmaker"
+  routes:
+  - application_name: "pacmaker"
+    paths:
+    - "/*"
